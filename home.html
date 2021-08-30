@@ -5,125 +5,288 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/308aac3aa1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <title>WanderLust</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FoodHub</title>
 </head>
 
 <body>
+    <nav class="nav-bar">
+        <div class="navbar-container container">
 
+            <input type="checkbox" name="" id="">
 
-    <header class="header">
-
-        <nav class="nav-bar">
-            <div class="container">
-                <h1 class="logo lg-heading text-light">WanderLust</h1>
-                <ul class="nav-items">
-                    <li class="nav-item"><a href="./home.html">Home</a></li>
-                    <li class="nav-item"><a href="./about.html">About</a></li>
-                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
-                </ul>
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
             </div>
-        </nav>
 
+            <ul class="menu-items">
+                <li><a href="#showcase">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#food">Food</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-        <div class="header-content">
-            <h1 class="lg-heading text-light">The joy of discovery is the single most important thing in life.<br>Don’t
-                forget it.</h1>
-            <p class="text-light">We travel, initially, to lose ourselves; and we travel, next to find ourselves. We
-                travel to open our
-                hearts and eyes and learn more about the world than our newspapers will accommodate. We travel to bring
-                what little we can, in our ignorance and knowledge, to those parts of the globe whose riches are
-                differently dispersed. And we travel, in essence, to become young fools again- to slow time down and get
-                taken in, and fall in love once more.
-            </p>
-            <a href="#showcase" class="button button-pri text-red">Explore Places</a>
+            <h1 class="logo">FoodHub</h1>
+
         </div>
 
-    </header>
-
+    </nav>
 
     <section class="showcase" id="showcase">
-        <div class="container">
-            <div class="row row_1">
-                <div class="img-box">
-                    <img src="./images/Ishigaki1.jpg" alt="Ishigaki,Japan" title="Ishigaki, Japan">
-                </div>
-                <div class="text-box">
-                    <h2 class="text-black">Ishigaki</h2>
-                    <p class="text-gray">
-                        The most trending travel spot in Japan! Voted as the most trending travel spot for 2021, the
-                        Ishigaki Island is definitely amongst the best places to visit in Japan. Despite its size, the
-                        island has no limit when it comes to offering unique experiences to its tourists, and glamming
-                        up their holiday in the Japanese land. It has been also voted as the best places to visit in
-                        Japan in cherry blossom season.
-                    </p>
-                    <a href="https://youtu.be/BPZBmLgtnwg" target="_blank" class="button button-sec text-red">More</a>
+        <div class="showcase-container">
+            <h1 class="main-title">Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, deleniti.</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section class="about-us container" id="about">
+        <div class="about-wrapper">
+            <div class="about-text">
+                <h3>About Us</h3>
+                <h1 class="main-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, inventore?
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, laboriosam maiores. Mollitia iure
+                    nisi
+                    magnam impedit animi officiis! Nulla nostrum debitis illo, ex laudantium consectetur id unde esse.
+                    Minima sed eaque, voluptatem suscipit assumenda quidem a modi amet! Ducimus delectus adipisci
+                    quibusdam
+                    aperiam, libero aspernatur doloremque natus eaque cupiditate quae! Rerum veniam quasi tempora ipsa
+                    alias
+                    culpa officia, eligendi in tenetur saepe, eveniet ab voluptas doloremque et quia rem molestiae iusto
+                    earum cum neque eos sint maiores consectetur! Aliquid eius et illum voluptates, ipsam voluptas
+                    tempore
+                    modi est atque eligendi totam incidunt optio nostrum sed assumenda natus excepturi accusamus
+                    architecto!
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="../Images/about-photo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="types-of-food" id="food">
+        <h2>Types of Food</h2>
+        <div class="types container">
+            <div class="food-type grains">
+                <div class="img-container">
+                    <img src="../Images/food3.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Grains</h3>
+                        <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target="_blank">Learn
+                            More</a>
+                    </div>
                 </div>
             </div>
-            <div class="row row_2">
+            <div class="food-type fruits">
+                <div class="img-container">
+                    <img src="../Images/food1.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Fruits</h3>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="_blank">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetables">
+                <div class="img-container">
+                    <img src="../Images/food2.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Vegetables</h3>
+                        <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target="_blank">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="food-menu" class="menu">
+        <h2>Food Menu</h2>
+        <div class="foodmenu container">
+            <div class="food-item item1">
                 <div class="img-box">
-                    <img src="./images/White_Island_New_Zealand.jpg" alt="White_Island_New_Zealand"
-                        title="White Island, New Zealand">
+                    <img src="../Images/food-menu1.jpg" alt="">
                 </div>
                 <div class="text-box">
-                    <h2 class="text-black">White Island</h2>
-                    <p class="text-gray">
-                        If you want to try something more thrilling on your trip then White Island is one of the best
-                        places to visit in New Zealand. It is the most active volcano in the country. This place is
-                        ideal for all the adventurous travelers who would like to make their trip a memorable one. You
-                        can take a helicopter ride over the White Island while enjoying the stunning view of the
-                        volcanic landscape. Since this is an area of active volcanoes, you are required to wear gas
-                        masks and hard hats. If you are lucky enough then you can even watch volcanologists monitoring
-                        the volcanoes. You can even take on the island by a boat. For the travelers who are fearless,
-                        they can even go for scuba diving around the White Island and explore the underwater vents of
-                        the volcanoes.
-                    </p>
-                    <a href="https://youtu.be/xYDHWha9OFU" target="_blank" class="button button-sec text-red">More</a>
+                    <h2 class="food-title">Food Item 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae.</p>
+                    <p class="food-price">Price: &#8377; 250</p>
                 </div>
+            </div>
+            <div class="food-item item2">
+                <div class="img-box">
+                    <img src="../Images/food-menu2.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h2 class="food-title">Food Item 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae.</p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-item item3">
+                <div class="img-box">
+                    <img src="../Images/food-menu3.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h2 class="food-title">Food Item 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae.</p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-item item4">
+                <div class="img-box">
+                    <img src="../Images/food-menu4.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h2 class="food-title">Food Item 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae.</p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-item item5">
+                <div class="img-box">
+                    <img src="../Images/food-menu5.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h2 class="food-title">Food Item 5</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae.</p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-item item6">
+                <div class="img-box">
+                    <img src="../Images/food-menu6.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h2 class="food-title">Food Item 6</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quae.</p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2 class="testimonial-title">What our Customer Say</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut, consequuntur excepturi molestias
+                    odio hic!
+                </p>
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="../Images/male-photo1.jpg" alt="">
+                        <p class="customer-name">John Hopkins</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut, consequuntur excepturi molestias
+                    odio hic!
+                </p>
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="../Images/male-photo2.jpg" alt="">
+                        <p class="customer-name">John Hopkins</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut, consequuntur excepturi molestias
+                    odio hic!
+                </p>
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="../Images/male-photo3.jpg" alt="">
+                        <p class="customer-name">John Hopkins</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-image">
+                <img src="../Images/restraunt-image.jpg" alt="">
+            </div>
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="E-mail">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <a href="#" class="btn btn-primary">Submit</a>
 
             </div>
         </div>
     </section>
 
-
-    <section class="feature">
-        <div class="container">
-
-            <div class="box-wrapper">
-                    <div class="box box-1">
-                        <i class="fas fa-map-marked-alt fa-2x text-red"></i>
-
-                         <h2 class="md-heading">Adventurous</h2>
-                        <p>A new experience outside of your house can be considered as an adventure. It brings to the sense a
-                            feeling of newness. One can find Adventure in talking to new people. Some may find Adventure in taking long solo trips.
-                        </p>
-                    </div>
-                    <div class="box box-2">
-                        <i class="fas fa-money-bill-alt fa-2x"></i>
-                        <h2 class="md-heading">Less Price</h2>
-                        <p>Deal Deal Deal</p>
-                    </div>
-                    <div class="box box-3">
-                        <i class="fas fa-atom fa-2x text-red"></i>
-                        <h2 class="md-heading">Experiences</h2>
-                        <p>Learn with your experiences</p>
-                    </div>
-                
-            </div>
-        </div>
-    </section>
-
-
-    <footer class="footer text-light">
-        <div class="social-media-links">
-            <a href="http://www.facebook.com/wanderlust" class="footer-icon" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-            <a href="http://www.twitter.com/wanderlust" class="footer-icon" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
-            <a href="http://www.instagram.com/wanderlust" class="footer-icon" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
-        </div>
-        <p>WanderLust 2021 &copy; | All Rights Reserved</p>
-
+    <footer id="footer">
+        <h2>FoodHub | &copy; All Rights Reserved</h2>
     </footer>
+
+
+    <!-- for smooth scrolling -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 
 </body>
 
