@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/308aac3aa1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>WanderLust</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <nav class="nav-bar">
+            <div class="container">
+                <h1 class="logo lg-heading text-light">WanderLust</h1>
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="./home.html">Home</a></li>
+                    <li class="nav-item"><a href="./about.html">About</a></li>
+                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="header-content">
+            <h1 class="lg-heading text-light">The joy of discovery is the single most important thing in life.<br>Don’t
+                forget it.</h1>
+            <p class="text-light">We travel, initially, to lose ourselves; and we travel, next to find ourselves. We
+                travel to open our
+                hearts and eyes and learn more about the world than our newspapers will accommodate. We travel to bring
+                what little we can, in our ignorance and knowledge, to those parts of the globe whose riches are
+                differently dispersed. And we travel, in essence, to become young fools again- to slow time down and get
+                taken in, and fall in love once more.
+            </p>
+            <a href="#showcase" class="button button-pri text-red">Explore Places</a>
+        </div>
+
+    </header>
+
+
+    <section class="showcase" id="showcase">
+        <div class="container">
+            <div class="row row_1">
+                <div class="img-box">
+                    <img src="./images/Ishigaki1.jpg" alt="Ishigaki,Japan" title="Ishigaki, Japan">
+                </div>
+                <div class="text-box">
+                    <h2 class="text-black">Ishigaki</h2>
+                    <p class="text-gray">
+                        The most trending travel spot in Japan! Voted as the most trending travel spot for 2021, the
+                        Ishigaki Island is definitely amongst the best places to visit in Japan. Despite its size, the
+                        island has no limit when it comes to offering unique experiences to its tourists, and glamming
+                        up their holiday in the Japanese land. It has been also voted as the best places to visit in
+                        Japan in cherry blossom season.
+                    </p>
+                    <a href="https://youtu.be/BPZBmLgtnwg" target="_blank" class="button button-sec text-red">More</a>
+                </div>
+            </div>
+            <div class="row row_2">
+                <div class="img-box">
+                    <img src="./images/White_Island_New_Zealand.jpg" alt="White_Island_New_Zealand"
+                        title="White Island, New Zealand">
+                </div>
+                <div class="text-box">
+                    <h2 class="text-black">White Island</h2>
+                    <p class="text-gray">
+                        If you want to try something more thrilling on your trip then White Island is one of the best
+                        places to visit in New Zealand. It is the most active volcano in the country. This place is
+                        ideal for all the adventurous travelers who would like to make their trip a memorable one. You
+                        can take a helicopter ride over the White Island while enjoying the stunning view of the
+                        volcanic landscape. Since this is an area of active volcanoes, you are required to wear gas
+                        masks and hard hats. If you are lucky enough then you can even watch volcanologists monitoring
+                        the volcanoes. You can even take on the island by a boat. For the travelers who are fearless,
+                        they can even go for scuba diving around the White Island and explore the underwater vents of
+                        the volcanoes.
+                    </p>
+                    <a href="https://youtu.be/xYDHWha9OFU" target="_blank" class="button button-sec text-red">More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="feature">
+        <div class="container">
+
+            <div class="box-wrapper">
+                    <div class="box box-1">
+                        <i class="fas fa-map-marked-alt fa-2x text-red"></i>
+
+                         <h2 class="md-heading">Adventurous</h2>
+                        <p>A new experience outside of your house can be considered as an adventure. It brings to the sense a
+                            feeling of newness. One can find Adventure in talking to new people. Some may find Adventure in taking long solo trips.
+                        </p>
+                    </div>
+                    <div class="box box-2">
+                        <i class="fas fa-money-bill-alt fa-2x"></i>
+                        <h2 class="md-heading">Less Price</h2>
+                        <p>Deal Deal Deal</p>
+                    </div>
+                    <div class="box box-3">
+                        <i class="fas fa-atom fa-2x text-red"></i>
+                        <h2 class="md-heading">Experiences</h2>
+                        <p>Learn with your experiences</p>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer text-light">
+        <div class="social-media-links">
+            <a href="http://www.facebook.com/wanderlust" class="footer-icon" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="http://www.twitter.com/wanderlust" class="footer-icon" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="http://www.instagram.com/wanderlust" class="footer-icon" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+        </div>
+        <p>WanderLust 2021 &copy; | All Rights Reserved</p>
+
+    </footer>
+
+</body>
+
+</html>
